@@ -1,2 +1,3 @@
 # MoterDriver_Mikasa
-リハビリ
+リハビリ<br>
+構想：[concept.md](src/concept.md)
