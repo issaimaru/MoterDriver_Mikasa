@@ -1,0 +1,200 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "51b286ec-1007-4ca8-bb9f-1e1731277ad8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 113.03 130.81)
+		(size 19.05 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3acaaaeb-7dd9-4d77-b0c5-87eea7d057ae")
+		(property "Sheetname" "PWM Control"
+			(at 113.03 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWMControl.kicad_sch"
+			(at 113.03 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MoterDriver_Mikasa"
+				(path "/51b286ec-1007-4ca8-bb9f-1e1731277ad8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 96.52)
+		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f8e8697-eb16-4ce6-9db1-b611a7dff1ee")
+		(property "Sheetname" "Half bridge"
+			(at 81.28 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "halfbridge.kicad_sch"
+			(at 81.28 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor" bidirectional
+			(at 99.06 105.41 0)
+			(uuid "d603d6f1-dd1c-4786-b273-1859a701a9a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWMH" input
+			(at 81.28 102.87 180)
+			(uuid "220a8951-2fc8-4a80-8c06-23a2d8e20480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWML" input
+			(at 81.28 107.95 180)
+			(uuid "bfbf58e4-f903-4171-a17f-71baa6243915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MoterDriver_Mikasa"
+				(path "/51b286ec-1007-4ca8-bb9f-1e1731277ad8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 96.52)
+		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7143eaa-a907-44e4-85d7-01163e4f6b40")
+		(property "Sheetname" "Half bridge"
+			(at 166.37 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "halfbridge.kicad_sch"
+			(at 166.37 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor" bidirectional
+			(at 166.37 105.41 180)
+			(uuid "ee6b7d38-9f6b-412e-b76d-c9240b15d018")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWMH" input
+			(at 184.15 102.87 0)
+			(uuid "beafbe0a-d68c-46b6-81af-63042af4efc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWML" input
+			(at 184.15 107.95 0)
+			(uuid "c6486c91-f8cc-4c13-8278-28f3a13ece34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MoterDriver_Mikasa"
+				(path "/51b286ec-1007-4ca8-bb9f-1e1731277ad8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

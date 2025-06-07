@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCP14700T-ESN")(type "KiCad")(uri "C:/Users/takeu/OneDrive - Science Tokyo/github/KiCad/MoterDriver_Mikasa/src/symbols/MCP14700T-ESN.kicad_sym")(options "")(descr ""))
+  (lib (name "FET")(type "KiCad")(uri "C:/Users/takeu/OneDrive - Science Tokyo/github/KiCad/MoterDriver_Mikasa/src/symbols/FET.kicad_sym")(options "")(descr ""))
+  (lib (name "Logic")(type "KiCad")(uri "C:/Users/takeu/OneDrive - Science Tokyo/github/KiCad/MoterDriver_Mikasa/src/symbols/Logic.kicad_sym")(options "")(descr ""))
+)

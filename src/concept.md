@@ -12,4 +12,6 @@ RS-775を回す想定のモータードライバ(20A級)
 ![RS775の性能表](image/RS775-spec.png)
 
 ## 部品
+<!-- 🚑️ MCP14700T-E/SN -->
 ゲートドライバ：[MCP14700T-E/SN](https://akizukidenshi.com/catalog/g/g108333/)<br>
+MOSFET(仮選定)：[MTB7D0N6RJ3](https://akizukidenshi.com/catalog/g/g117191/)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MoterDriver_Mikasa")(type "KiCad")(uri "${KIPRJMOD}/MoterDriver_Mikasa.pretty")(options "")(descr ""))
+)
